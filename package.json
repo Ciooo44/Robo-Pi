@@ -1,13 +1,8 @@
 {
-  "name": "robo-pi",
-  "private": true,
+  "name": "@robopi/web",
   "version": "0.1.0",
-  "packageManager": "pnpm@9.0.0",
-  "workspaces": ["packages/*", "apps/*"],
-  "scripts": {
-    "build": "pnpm -r build",
-    "dev": "pnpm --filter @robopi/dashboard dev",
-    "lint": "eslint .",
-    "typecheck": "tsc -b"
-  }
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc -p tsconfig.json" }
 }
