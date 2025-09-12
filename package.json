@@ -1,11 +1,16 @@
 {
-  "name": "@robopi/dashboard",
-  "version": "0.1.0",
+  "name": "robo-pi",
   "private": true,
-  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @robopi/dashboard dev",
+    "lint": "echo 'no lint yet'",
+    "typecheck": "tsc -b"
   }
 }
