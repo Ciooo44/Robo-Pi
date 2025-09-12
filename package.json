@@ -1,0 +1,13 @@
+{
+  "name": "robo-pi",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @robopi/dashboard dev",
+    "lint": "eslint .",
+    "typecheck": "tsc -b"
+  }
+}
