@@ -1,84 +1,30 @@
-# robo-pi
+# Robot Control Interface
 
-**Goal**: Close the hardware↔software gap for small robot builders with a minimal browser SDK and a plug‑and‑play dashboard.
+*Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
-Zapier for Robots 🤖⚡
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/timpietruskys-projects/v0-robot-control-interface)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/iww0lV74Bol)
 
-Robo-Pi is an open-source SDK + dashboard monorepo that closes the gap between robot hardware and software for small builders.
+## Overview
 
-Why?
+This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-Today, makers, students, and small robotics teams face a recurring pain point:
+## Deployment
 
-They can wire up the hardware (servos, motors, sensors).
+Your project is live at:
 
-They can code the software (simulations, AI).
-But they struggle to connect the two worlds in a fast and standard way.
+**[https://vercel.com/timpietruskys-projects/v0-robot-control-interface](https://vercel.com/timpietruskys-projects/v0-robot-control-interface)**
 
-Every robot comes with its own SDK, setup takes weeks, and integration is fragile.
+## Build your app
 
-Robo-Pi solves this by acting like Zapier for Robots:
+Continue building your app on:
 
-Use findPort() to detect and connect to your robot.
+**[https://v0.dev/chat/projects/iww0lV74Bol](https://v0.dev/chat/projects/iww0lV74Bol)**
 
-Run calibrate() with visual feedback.
+## How It Works
 
-Control joints live with teleoperate() from the browser.
-
-Build data pipelines with record() → train() → eval() for AI-driven policies.
-
-All from one unified API and a plug-and-play web dashboard.
-
-Features
-
-✅ WebSerial-based robot detection
-✅ Visual dashboard with device registry
-✅ One-click calibration & teleoperation panel
-✅ MockBot support for testing without hardware
-🚧 Dataset recording & replay (record/replay)
-🚧 AI training (train)
-🚧 AI inference (eval)
-
-Who is it for?
-
-Maker & hobbyist communities
-
-University / high school robotics clubs
-
-Small robotics startups
-
-Research labs
-
-Development
-pnpm i
-pnpm -r build
-pnpm --filter @robopi/dashboard dev
-
-
-Open in your browser → click Add Unit → connect a robot or try with MockBot.
-
-Roadmap
-
- Device detection (findPort)
-
- Calibration (calibrate)
-
- Teleoperation (teleoperate)
-
- Data recording (record/replay)
-
- AI training (train)
-
- AI inference (eval)
-
-License
-
-MIT — free and open to all.
-
-## Dev
-
-```bash
-pnpm i
-pnpm -r build
-pnpm --filter @robopi/dashboard dev
-```
+1. Create and modify your project using [v0.dev](https://v0.dev)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository
