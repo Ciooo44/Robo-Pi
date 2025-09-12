@@ -8,5 +8,6 @@ export default function DeviceCard({ r }: { r: RobotConnection }) {
       <div className="label" style={{marginTop:8}}>Model</div>
       <div>{r.info.model}</div>
     </div>
+    
   );
 }
