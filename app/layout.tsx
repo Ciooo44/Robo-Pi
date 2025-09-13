@@ -6,7 +6,7 @@ import { GridBackground } from "@/components/grid-background"
 
 export const metadata: Metadata = {
   title: "Robo-Pi",
-  description: "Close the gap between robot hardware and software with a plug-and-play SDK + web dashboard",
+  description: "Close the gap between robot hardware and software with a plug-and-play SDK + web dashboard CA: C3FgBZDPWk8WfLjP6LTBMH8FGkTg5MawyuyaHJyUpBLV ",
   generator: "v0.dev",
   icons: {
     icon: "/favicon.png",
