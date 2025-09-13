@@ -1,35 +1,5 @@
-BEAR
-
-AAAAAAAAAAAAAAAAAAAAANd74AEAAAAATxuKMClMwIDKLDryrqGth6ms93g%3D82WSy1cDC34FNbyTsZDN1FrGRABejuxwZMqir3XQdNdWu2RtaK
-
-
-
-
 Access Token
 
 1966181132095176704-ewg4lTo2meowDB8LGhtIDYWNtHeNcC
 
 
-
-
-Access Token Secret
-
-TLzrbWyI6DRi8GpvSmcv47M0grjpYY0U5v2jPHZvI2i3c
-
-
-API KEY
-
-k4mgUojZmGYmpPypNsIDzAds6
-
-
-API KEY SECRET
-
-BW1qm4dyvGwtheR0tmy0tPkZev7iExR99vH9nANDOAshObLMYl
-
-
-
-Client ID 
-U182Y19QX3A4UWFuRUctU0o0aEY6MTpjaQ
-
-Client Secret 
-sxK-UDZdJS3gwQSFQfFfTuci_J2hhaCyboeF3sV-Gx5DfEVzVT
