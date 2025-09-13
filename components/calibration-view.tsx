@@ -9,7 +9,7 @@ import { MotorCalibrationVisual } from "@/components/motor-calibration-visual"
 import type { RobotConnection, LiveCalibrationData, WebCalibrationResults } from "@/types/robot"
 
 interface CalibrationViewProps {
-  robot: RobotConnection
+  robot: RobotConnection 
 }
 
 export function CalibrationView({ robot }: CalibrationViewProps) {
